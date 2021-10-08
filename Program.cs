@@ -7,6 +7,7 @@ namespace pig_project
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Pig");
+            Console.WriteLine( "test1" );
         }
     }
 }
