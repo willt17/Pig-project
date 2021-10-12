@@ -1,0 +1,16 @@
+C:\Users\willt\pig-project\obj\Debug\net5.0\pig-project.csproj.AssemblyReference.cache
+C:\Users\willt\pig-project\obj\Debug\net5.0\pig-project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\willt\pig-project\obj\Debug\net5.0\pig-project.AssemblyInfoInputs.cache
+C:\Users\willt\pig-project\obj\Debug\net5.0\pig-project.AssemblyInfo.cs
+C:\Users\willt\pig-project\obj\Debug\net5.0\pig-project.csproj.CoreCompileInputs.cache
+C:\Users\willt\pig-project\bin\Debug\net5.0\pig-project.exe
+C:\Users\willt\pig-project\bin\Debug\net5.0\pig-project.deps.json
+C:\Users\willt\pig-project\bin\Debug\net5.0\pig-project.runtimeconfig.json
+C:\Users\willt\pig-project\bin\Debug\net5.0\pig-project.runtimeconfig.dev.json
+C:\Users\willt\pig-project\bin\Debug\net5.0\pig-project.dll
+C:\Users\willt\pig-project\bin\Debug\net5.0\ref\pig-project.dll
+C:\Users\willt\pig-project\bin\Debug\net5.0\pig-project.pdb
+C:\Users\willt\pig-project\obj\Debug\net5.0\pig-project.dll
+C:\Users\willt\pig-project\obj\Debug\net5.0\ref\pig-project.dll
+C:\Users\willt\pig-project\obj\Debug\net5.0\pig-project.pdb
+C:\Users\willt\pig-project\obj\Debug\net5.0\pig-project.genruntimeconfig.cache
