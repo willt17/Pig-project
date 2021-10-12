@@ -12,7 +12,7 @@ namespace pig_project
             Console.WriteLine( "test1" );
             pigPlayer1( ref player1Score, ref player2Score );
         }
-        static int random1()
+        static int random1() // Generates a random number for the dice roll
         {
             Random randomNumber= new Random();
             int number;
@@ -21,7 +21,7 @@ namespace pig_project
         }
         static void pigPlayer1( ref int player1Score, ref int  player2Score )
         {
-            Console.WriteLine( "Player 1 is rolling" );
+            Console.WriteLine( "Player 1 is rolling" ); // Starts a roll and updates the appropriate users score if the win state is not achieved
             while ( player1Score < 100 )
             {
                  int addScore = random1();
@@ -46,7 +46,7 @@ namespace pig_project
         }
         static void pigPlayer2( ref int player2Score, ref int player1Score)
         {
-            Console.WriteLine( "Player 2 is rolling" );
+            Console.WriteLine( "Player 2 is rolling" ); // Starts a roll and updates the appropriate users score if the win state is not achieved
             while ( player2Score < 100 )
             {
                  int addScore = random1();
@@ -58,11 +58,26 @@ namespace pig_project
                  else
                  {
                      Console.WriteLine( "Your turn has ended" );
-                     Console.WriteLine( "It is back to player 1" );
-                     pigPlayer1( ref player1Score, ref player2Score );
+                     winCheck( ref player1Score, ref player2Score );
                      break;
                  }
                  
+            }
+        }
+        static void winCheck( ref int player1Score, ref int player2Score )
+        {
+            if ( player1Score < 100 && player2Score < 100)
+            {
+                Console.WriteLine( "Not finished" );
+                pigPlayer1( ref player1Score, ref player2Score );
+            }
+            else if ( player1Score >= 100 )
+            {
+                Console.WriteLine( "You win" );
+            }
+            else if ( player2Score >= 100 )
+            {
+                Console.WriteLine( "You lose" );
             }
         }
             

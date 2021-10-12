@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\willt\\pig-project\\pig-project.csproj": {}
+    "C:\\users\\willt\\pig-project\\pig-project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\willt\\pig-project\\pig-project.csproj": {
+    "C:\\users\\willt\\pig-project\\pig-project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\willt\\pig-project\\pig-project.csproj",
+        "projectUniqueName": "C:\\users\\willt\\pig-project\\pig-project.csproj",
         "projectName": "pig-project",
-        "projectPath": "C:\\Users\\willt\\pig-project\\pig-project.csproj",
+        "projectPath": "C:\\users\\willt\\pig-project\\pig-project.csproj",
         "packagesPath": "C:\\Users\\willt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\willt\\pig-project\\obj\\",
+        "outputPath": "C:\\users\\willt\\pig-project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\willt\\AppData\\Roaming\\NuGet\\NuGet.Config"
